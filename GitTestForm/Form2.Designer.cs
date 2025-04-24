@@ -28,19 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
             label1 = new Label();
+            button1 = new Button();
             SuspendLayout();
-            // 
-            // button1
-            // 
-            button1.Location = new Point(191, 8);
-            button1.Name = "button1";
-            button1.Size = new Size(128, 25);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
             // 
             // label1
             // 
@@ -50,6 +40,16 @@
             label1.Size = new Size(49, 17);
             label1.TabIndex = 1;
             label1.Text = "Adham";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(157, 46);
+            button1.Name = "button1";
+            button1.Size = new Size(128, 25);
+            button1.TabIndex = 0;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form2
             // 
@@ -65,8 +65,7 @@
         }
 
         #endregion
-
-        private Button button1;
         private Label label1;
+        private Button button1;
     }
 }
