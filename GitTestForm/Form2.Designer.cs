@@ -28,18 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
             button1 = new Button();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(157, 74);
-            label1.Name = "label1";
-            label1.Size = new Size(49, 17);
-            label1.TabIndex = 1;
-            label1.Text = "Adham";
             // 
             // button1
             // 
@@ -56,16 +46,13 @@
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(508, 301);
-            Controls.Add(label1);
             Controls.Add(button1);
             Name = "Form2";
             Text = "Form2";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-        private Label label1;
         private Button button1;
     }
 }
